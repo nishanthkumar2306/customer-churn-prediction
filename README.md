@@ -186,25 +186,39 @@ The Streamlit dashboard includes:
 - Batch CSV prediction and downloadable results.
 - Model metrics and confusion matrix.
 
-### Screenshots
+## Screenshots
 
-Add actual screenshots to the `screenshots/` folder and update these image paths when the files are available.
+Screenshots of the application's main features are shown below.
 
-**Dashboard**
+### 1. Dashboard
+Displays customer statistics, churn distribution, risk distribution, and churn trends.
 
-![Customer churn dashboard](screenshots/dashboard.png)
+![Customer Churn Dashboard](screenshots/dashboard.png)
 
-**Customer Prediction**
+### 2. Individual Customer Prediction
+Predicts churn probability, displays the risk level, explains influential factors, and suggests retention actions.
 
-![Customer prediction page](screenshots/predict-customer.png)
+![Individual Customer Prediction](screenshots/predict-customer.png)
 
-**Batch Prediction**
+### 3. Batch Prediction
+Allows users to upload a CSV file and generate predictions for multiple customers.
 
-![Batch prediction results](screenshots/batch-prediction.png)
+![Batch Prediction](screenshots/batch-prediction.png)
 
-**Model Information**
+### 4. Risk Analysis
+Explores customer risk levels and helps identify high-risk customers.
 
-![Model information page](screenshots/model-information.png)
+![Risk Analysis](screenshots/risk-analysis.png)
+
+### 5. Customer Analysis
+Provides an individual-customer view for exploring customer characteristics and churn information.
+
+![Customer Analysis](screenshots/customer-analysis.png)
+
+### 6. Model Information
+Displays model evaluation metrics, the confusion matrix, and information about model performance.
+
+![Model Information](screenshots/model-information.png)
 
 ## Installation
 
