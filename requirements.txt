@@ -1,0 +1,18 @@
+# Versions below were used and tested (Python 3.12). Python 3.11+ is required (pandas 3).
+pandas==3.0.2
+numpy==2.4.4
+scikit-learn==1.8.0
+joblib==1.5.3
+fastapi==0.142.2
+uvicorn==0.54.0
+pydantic==2.13.5
+python-multipart==0.0.32
+streamlit==1.64.0
+plotly==7.1.0
+# testing
+pytest==9.1.1
+httpx==0.28.1
+# notebook only (notebooks/01_eda_and_model_training.ipynb)
+matplotlib
+seaborn
+ipykernel

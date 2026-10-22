@@ -1,0 +1,41 @@
+{
+  "dataset": "IBM Telco Customer Churn",
+  "n_rows": 7043,
+  "churn_rate": 0.2653698707936959,
+  "test_size": 0.2,
+  "random_state": 42,
+  "decision_threshold": 0.5,
+  "selected_model": "Logistic Regression",
+  "models": {
+    "Logistic Regression": {
+      "accuracy": 0.7381121362668559,
+      "precision": 0.504302925989673,
+      "recall": 0.7834224598930482,
+      "f1": 0.6136125654450262,
+      "roc_auc": 0.841501976284585,
+      "confusion_matrix": {
+        "tn": 747,
+        "fp": 288,
+        "fn": 81,
+        "tp": 293
+      },
+      "cv_roc_auc_mean": 0.845993938597194,
+      "cv_roc_auc_std": 0.012393895200642933
+    },
+    "Random Forest": {
+      "accuracy": 0.7679205110007097,
+      "precision": 0.5463510848126233,
+      "recall": 0.7406417112299465,
+      "f1": 0.6288308740068105,
+      "roc_auc": 0.841818440156036,
+      "confusion_matrix": {
+        "tn": 805,
+        "fp": 230,
+        "fn": 97,
+        "tp": 277
+      },
+      "cv_roc_auc_mean": 0.8444758097657754,
+      "cv_roc_auc_std": 0.008224731790386425
+    }
+  }
+}
