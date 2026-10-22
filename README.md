@@ -1,6 +1,6 @@
 # Customer Churn Prediction, Risk Analysis & Retention Recommendation System
 
-🚀 Live Demo: Open Customer Churn Prediction Dashboard
+**🚀 Live Demo:** [Open Customer Churn Prediction Dashboard](https://smart-churn-app-2306.streamlit.app/)
 
 An end-to-end Machine Learning project that predicts telecom customer churn, estimates customer risk, explains factors influencing predictions, and recommends retention actions through an interactive Streamlit dashboard and a FastAPI REST API.
 
